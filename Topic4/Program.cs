@@ -39,7 +39,7 @@
             Console.WriteLine("Now that I know you're " + personName + ", I'd like to know your favourite pizza topping.");
             Console.WriteLine("Please TYPE your favourite pizza topping below.");
             pizzaTopping = Console.ReadLine();
-            Console.WriteLine("No way " + personName + ", my favourite pizza topping is " + pizzaTopping + " too!");
+            Console.WriteLine("No way, " + personName + ", my favourite pizza topping is " + pizzaTopping + " too!");
 
             Console.WriteLine();
 
