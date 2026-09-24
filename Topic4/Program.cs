@@ -45,7 +45,7 @@
 
             Console.WriteLine("So, " + personName + ", name any item. You're getting three of them!!");
             itemName = Console.ReadLine();
-            Console.WriteLine("And please enter a price for one item: ");
+            Console.WriteLine("And please enter the price for one of your item: ");
             Console.WriteLine(Double.TryParse(Console.ReadLine(), out itemPrice));
             Console.WriteLine("The cost of three " + itemName + " is " + (itemPrice * 3).ToString("C") + ".");
 
